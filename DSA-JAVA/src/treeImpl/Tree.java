@@ -3,17 +3,6 @@ package treeImpl;
 import DSA.treeImpl.Node;
 
 public class Tree { 
-	//    static class Node {    
-	//    int value; 
-	//        Node left, right; 
-	//          
-	//        Node(int value){ 
-	//            this.value = value; 
-	//            left = null; 
-	//            right = null; 
-	//        } 
-	//    } 
-
 	public void insert(Node node, int value) {
 		//left child Insertion 
 		if (value < node.value) { 
